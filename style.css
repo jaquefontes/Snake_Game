@@ -1,0 +1,52 @@
+body {
+    height: 95vh;
+    width: 95;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    color: black; 
+
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(./img/fundo1.jpg);
+    background-size: cover;
+    /*linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%)*/
+
+}
+
+header h1 {
+    font-size: 30px;
+    background: black;
+    border-radius: 5%;
+    color: white;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body .instrucoes {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-top: 0px;
+}
+
+body .instrucoes h2 {
+    width: 100%;
+    margin-left: 210px;
+    font-size: 20px;
+}
+
+ul li {
+    color: white;
+    margin-bottom: 3px;
+    font-size: 15px;
+
+}
+
+.lista-instrucoes {
+    margin-bottom: 10px;
+}
+
+canvas {
+    border: 5px solid black;
+}
